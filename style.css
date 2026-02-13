@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff8f0;
+  color: #4a2c2a;
+  text-align: center;
+}
+
+.logo-section {
+  padding: 20px;
+}
+
+.logo {
+  max-width: 220px;
+}
+
+.banner {
+  background: #c97c5d;
+  padding: 80px 20px;
+  color: white;
+}
+
+.products {
+  padding: 50px 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-weight: bold;
+}
+
+.services, .about {
+  padding: 40px 20px;
+  background: #fff;
+}
+
+footer {
+  background: #4a2c2a;
+  color: white;
+  padding: 20px;
+}
+
+.socials a {
+  color: #ffcc99;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.copy {
+  margin-top: 10px;
+  font-size: 14px;
+}
